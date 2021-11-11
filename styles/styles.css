@@ -1,0 +1,154 @@
+/*main color #757575*/
+/* second color #212121;*/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --logo-first-color:#2196F3;
+    --back-color-head:#2F303A;
+    --color-button: #ffffff;
+    --background-button: #F5F4FA;
+}
+body{
+background-color :#E5E5E5;
+color: var(--primary-text-color);
+
+font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+a{
+    text-decoration: none;
+}
+/*head navigation*/
+.head-nav .link{
+    color:var(--title-text-color);
+}
+.head-nav .link:hover,
+.head-nav .link:focus{
+color:var(--logo-first-color);
+}
+.address-nav .address{
+    color:var(--primary-text-color);
+
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+}
+.address-nav .address:focus,
+.address-nav .address:hover{
+    color:var(--logo-first-color);
+}
+.address-nav{
+   color:var(--title-text-color);
+}
+
+/*logo*/
+.logo{
+   color: var(--logo-first-color);
+
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   text-decoration: none;
+}
+.logo-second{
+    color: var(--title-text-color);
+}
+/*Main content*/
+.list{
+    list-style: none;
+}
+.head-pages{
+    color:var(--color-button);
+
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{
+    color: var(--color-button);
+    background-color:var(--logo-first-color);
+}
+.button,.portfolio-button{
+    cursor:pointer;
+}
+h2,h3{
+    color:var(--title-text-color);
+}
+.tittle-list{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--title-text-color);
+}
+.tittle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-text-color);
+}
+/*our team*/
+.tittle-people{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: var(--title-text-color);
+}
+.profession{
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*footer*/
+.logo-third{
+    color:var(--color-button);
+    background-color: black;
+}
+.location{
+    color:var(--color-button)
+}
+.footer-address .footer-adr{
+    color:var(--primary-text-color)
+}
+.footer-address .footer-adr:focus,
+.footer-address .footer-adr:hover{
+    color:var(--logo-first-color)
+}
+/*Portfolio button*/
+.portfolio-button{
+color:var(--title-text-color);
+ background-color:var(--background-button);
+
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--color-button);
+    background-color:var(--logo-first-color)
+}
+/*Portfolio menu*/
+.tittle-portfolio{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.portfolio-type{
+    font-size: 16px;
+    line-height: 1.87;
+
+    color:var(--primary-text-color);
+}
